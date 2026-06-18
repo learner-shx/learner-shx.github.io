@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect x="0" y="0" width="64" height="64" rx="13" fill="#1b1f24"/>
+
+  <!-- Cornell box: ceiling -->
+  <polygon points="8,8 24,24 40,24 56,8" fill="#f1f1f1"/>
+  <!-- floor -->
+  <polygon points="8,56 24,40 40,40 56,56" fill="#dadada"/>
+  <!-- back wall -->
+  <polygon points="24,24 40,24 40,40 24,40" fill="#ececec"/>
+  <!-- left wall (red) -->
+  <polygon points="8,8 24,24 24,40 8,56" fill="#d24b43"/>
+  <!-- right wall (green) -->
+  <polygon points="56,8 40,24 40,40 56,56" fill="#3ea866"/>
+
+  <!-- tall box -->
+  <polygon points="26,29 30,27 35,29 31,31" fill="#ffffff"/>
+  <polygon points="26,29 26,42 31,44 31,31" fill="#cfcfcf"/>
+  <polygon points="31,31 35,29 35,40 31,44" fill="#b3b3b3"/>
+
+  <!-- short box -->
+  <polygon points="35,35 38,33 43,35 40,37" fill="#ffffff"/>
+  <polygon points="35,35 35,42 40,44 40,37" fill="#cfcfcf"/>
+  <polygon points="40,37 43,35 43,41 40,44" fill="#b3b3b3"/>
+</svg>
